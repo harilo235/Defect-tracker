@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="getmdl-select.min.css"> <link rel="stylesheet" href="material.min.css">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+    <ul class="nav justify-content-center Bright blue lighten-4 py-4">
+        <div class="d-flex justify-content-center">
+            <p class="h5 text-primary createShowP">Defect Form</p>
+          </div>
+      </ul>
+    
+<!--Table-->
+<table class="table table-hover table-fixed">
+
+    <!--Table head-->
+    <thead>
+      <tr>
+      
+        <th>Defect Id</th>
+        <th>Module Name</th>
+        <th>Description</th>
+        <th>Assign to</th>
+        <th>Severity</th>
+        <th>Priority</th>
+        <th>Defect type</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <!--Table head-->
+  
+    <!--Table body-->
+    <tbody>
+      <tr>
+      
+        <td>U001</td>
+      <td>UI logIn</td>
+      <td>logIn error finding</td>
+      <td>Hari</td>
+      <td>
+          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+              <input class="mdl-textfield__input" type="text" id="sample2" value="Severity" readonly tabIndex="-1">
+                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+              <ul for="sample2" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                  <li class="mdl-menu__item">High</li>
+                  <li class="mdl-menu__item">Medium</li>
+                  <li class="mdl-menu__item">Low</li>
+              </ul>
+          </div>
+      </td>
+      <td>
+          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+              <input class="mdl-textfield__input" type="text" id="sample3" value="Priority" readonly tabIndex="-1">
+                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+              <ul for="sample3" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                  <li class="mdl-menu__item">High</li>
+                  <li class="mdl-menu__item">Medium</li>
+                  <li class="mdl-menu__item">Low</li>
+              </ul>
+          </div>
+      </td>
+      <td>UI</td>
+      <td>
+          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+              <input class="mdl-textfield__input" type="text" id="sample4" value="Status" readonly tabIndex="-1">
+                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+              <ul for="sample4" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                  <li class="mdl-menu__item">Open</li>
+                  <li class="mdl-menu__item">Closed</li>
+                  <li class="mdl-menu__item">Rejected</li>
+                  <li class="mdl-menu__item">Deffered</li>
+                  <li class="mdl-menu__item">Enhancement</li>
+              </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+       
+        <td>F012</td>
+        <td>Functionality defect</td>
+        <td>logIn function not working properly</td>
+        <td>Mathan</td>
+        <td>
+            <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                <input class="mdl-textfield__input" type="text" id="sample5" value="Severity" readonly tabIndex="-1">
+                    <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                <ul for="sample5" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                    <li class="mdl-menu__item">High</li>
+                    <li class="mdl-menu__item">Medium</li>
+                    <li class="mdl-menu__item">Low</li>
+                </ul>
+            </div>
+        </td>
+        <td>
+            <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                <input class="mdl-textfield__input" type="text" id="sample6" value="Priority" readonly tabIndex="-1">
+                    <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                <ul for="sample6" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                    <li class="mdl-menu__item">High</li>
+                    <li class="mdl-menu__item">Medium</li>
+                    <li class="mdl-menu__item">Low</li>
+                </ul>
+            </div>
+        </td>
+        <td>Functionality</td>
+        <td>
+            <div style="width:200px;padding:0%""margin: 15px" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                <input class="mdl-textfield__input" type="text" id="sample7" value="Status" readonly tabIndex="-1">
+                    <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                <ul for="sample7" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                    <li class="mdl-menu__item">Open</li>
+                    <li class="mdl-menu__item">Closed</li>
+                    <li class="mdl-menu__item">Rejected</li>
+                    <li class="mdl-menu__item">Deffered</li>
+                    <li class="mdl-menu__item">Enhancement</li>
+                </ul>
+            </div>
+          </td>
+      </tr>
+      <tr>
+       
+        <td>P118</td>
+          <td>Performance Defect</td>
+          <td>Loading performance week and slow</td>
+          <td>Tyron</td>
+          <td>
+              <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                  <input class="mdl-textfield__input" type="text" id="sample8" value="Severity" readonly tabIndex="-1">
+                      <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                  <ul for="sample8" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                      <li class="mdl-menu__item">High</li>
+                      <li class="mdl-menu__item">Medium</li>
+                      <li class="mdl-menu__item">Low</li>
+                  </ul>
+              </div>
+          </td>
+          <td>
+              <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                  <input class="mdl-textfield__input" type="text" id="sample9" value="Priority" readonly tabIndex="-1">
+                      <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                  <ul for="sample9" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                      <li class="mdl-menu__item">High</li>
+                      <li class="mdl-menu__item">Medium</li>
+                      <li class="mdl-menu__item">Low</li>
+                  </ul>
+              </div>
+          </td>
+          <td>Performance</td>
+          <td>
+              <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                  <input class="mdl-textfield__input" type="text" id="sample10" value="Status" readonly tabIndex="-1">
+                      <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                  <ul for="sample10" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                      <li class="mdl-menu__item">Open</li>
+                      <li class="mdl-menu__item">Closed</li>
+                      <li class="mdl-menu__item">Rejected</li>
+                      <li class="mdl-menu__item">Deffered</li>
+                      <li class="mdl-menu__item">Enhancement</li>
+                  </ul>
+              </div>
+            </td>
+      </tr>
+      <tr>
+        <td>E051</td>
+                      <td>Enhancement</td>
+                      <td>Log-in successfull pop up </td>
+                      <td>Deluxan</td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample11" value="Severity" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample11" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">High</li>
+                                  <li class="mdl-menu__item">Medium</li>
+                                  <li class="mdl-menu__item">Low</li>
+                              </ul>
+                          </div>
+                      </td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample12" value="Priority" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample12" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">High</li>
+                                  <li class="mdl-menu__item">Medium</li>
+                                  <li class="mdl-menu__item">Low</li>
+                              </ul>
+                          </div>
+                      </td>
+                      <td>Enhancement</td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample13" value="Status" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample13" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">Open</li>
+                                  <li class="mdl-menu__item">Closed</li>
+                                  <li class="mdl-menu__item">Rejected</li>
+                                  <li class="mdl-menu__item">Deffered</li>
+                                  <li class="mdl-menu__item">Enhancement</li>
+                              </ul>
+                          </div>
+                        </td>
+      </tr>
+      <tr>
+        <td>E051</td>
+                      <td>Enhancement</td>
+                      <td>Log-in successfull pop up </td>
+                      <td>Deluxan</td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample11" value="Severity" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample11" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">High</li>
+                                  <li class="mdl-menu__item">Medium</li>
+                                  <li class="mdl-menu__item">Low</li>
+                              </ul>
+                          </div>
+                      </td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample12" value="Priority" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample12" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">High</li>
+                                  <li class="mdl-menu__item">Medium</li>
+                                  <li class="mdl-menu__item">Low</li>
+                              </ul>
+                          </div>
+                      </td>
+                      <td>Enhancement</td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample13" value="Status" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample13" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">Open</li>
+                                  <li class="mdl-menu__item">Closed</li>
+                                  <li class="mdl-menu__item">Rejected</li>
+                                  <li class="mdl-menu__item">Deffered</li>
+                                  <li class="mdl-menu__item">Enhancement</li>
+                              </ul>
+                          </div>
+                        </td>
+        </tr>
+      <tr>
+        <td>E051</td>
+                      <td>Enhancement</td>
+                      <td>Log-in successfull pop up </td>
+                      <td>Deluxan</td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample11" value="Severity" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample11" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">High</li>
+                                  <li class="mdl-menu__item">Medium</li>
+                                  <li class="mdl-menu__item">Low</li>
+                              </ul>
+                          </div>
+                      </td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample12" value="Priority" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample12" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">High</li>
+                                  <li class="mdl-menu__item">Medium</li>
+                                  <li class="mdl-menu__item">Low</li>
+                              </ul>
+                          </div>
+                      </td>
+                      <td>Enhancement</td>
+                      <td>
+                          <div style="width:200px;padding:0%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                              <input class="mdl-textfield__input" type="text" id="sample13" value="Status" readonly tabIndex="-1">
+                                  <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                              <ul for="sample13" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                  <li class="mdl-menu__item">Open</li>
+                                  <li class="mdl-menu__item">Closed</li>
+                                  <li class="mdl-menu__item">Rejected</li>
+                                  <li class="mdl-menu__item">Deffered</li>
+                                  <li class="mdl-menu__item">Enhancement</li>
+                              </ul>
+                          </div>
+                        </td>
+      </tr>
+    </tbody>
+    <!--Table body-->
+  
+  </table>
+  <!--Table-->
+  </div>
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+
+  <script src="material.min.js"></script>
+  <script src="getmdl-select.min.js"></script>
+</body>
+
+</html>
